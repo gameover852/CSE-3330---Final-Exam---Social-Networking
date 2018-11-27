@@ -1,7 +1,7 @@
 
 <?php
 	
-$severname = "localhost";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $databaseName = "test";
@@ -15,7 +15,7 @@ if (!$connection){
 
 echo "Connection Successfully !! <br>";
 	
-	$profileid = $_POST['profileid'];
+	$profileid = mt_rand(10006,19999);
     $fname        = $_POST['fname'];
     $lname        = $_POST['lname'];
     $mobileNo     = $_POST['mobileNo'];

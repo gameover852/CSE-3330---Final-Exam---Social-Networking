@@ -12,10 +12,7 @@
 </head>
 
 <body>
-  <form action="create_profile_adding_value.php" method="post" >
-    ProfileID:<br>
-    <input class = "input" type="text" name="profileid" id ="profileid" required><br><br>
-  
+  <form action="create_profile_adding_value.php" method="post" > 
     First name:<br>
     <input class = "input" type="text" name="fname" id="fname"  required><br><br>
 

@@ -13,6 +13,11 @@
 
 <body>
   <form action="create_page_insert.php" method="post">
+  
+      <h3>Please Login</h3>
+     User Name: <input type="text" name="username"><br><br>
+     Password: <input type="password" name="password"><br><br>
+  
     Page name:<br>
     <input type="text" name="name"  id="name" required ><br><br>
 
